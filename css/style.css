@@ -1,0 +1,307 @@
+@import url("https://fonts.googleapis.com/css?family=Oxygen");
+@font-face {
+  font-family: Ailerons-Typeface;
+  src: url(Ailerons-Typeface.otf);
+}
+
+@font-face {
+  font-family: Nexa-Light;
+  src: url(Nexa-Light.otf);
+}
+
+* {
+  font-family: Oxygen;
+}
+
+body {
+  color: #0a1b6a;
+  font-size: 20px;
+}
+
+img {
+  width: 170px;
+  height: auto;
+}
+
+ul {
+  font-size: 20px;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul i {
+  margin-right: 10px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.contacts ul {
+  font-size: 18px;
+  white-space: nowrap;
+  padding: 0 20px;
+  color: #fff;
+  background-color: #0a1b6a;
+}
+
+.contacts ul li {
+  padding-top: 10px;
+}
+
+.contacts ul li span:first-of-type {
+  margin-right: 8px;
+}
+
+.details {
+  display: flex !important;
+  flex-direction: row;
+  height: 222px;
+  align-items: center;
+  margin-top: 14px;
+}
+.details ul {
+  margin: 0;
+}
+.wrap {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.grid {
+  display: flex;
+  flex-direction: row;
+}
+
+.grid-child {
+  flex: 1;
+}
+
+.title-section {
+  padding-top: 25px;
+}
+
+.title-section .grid-child:first-of-type h1 {
+  padding-left: 11px;
+}
+
+.title-section .grid-child:last-of-type h1 {
+  padding-left: 57px;
+}
+
+.title-section .grid-child h1 span {
+  color: #5a6dc2;
+  font-size: 26px;
+}
+
+.title-section .grid-child h1 span:first-of-type {
+  margin-right: 15px;
+  color: #0a1b6a;
+}
+
+.general-section h2 {
+  background-color: #0a1b6a;
+  color: #fff;
+  padding: 20px 10px;
+}
+
+.work-experience {
+  position: relative;
+}
+
+.work-experience p {
+  padding-right: 10px;
+}
+
+.title-section .grid-child:first-of-type {
+  margin-right: 50px;
+}
+
+.title-section .grid::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  background-color: #0a1b6a;
+  top: 0;
+  left: 0;
+  margin: 0 10px;
+}
+
+.tech-info h2,
+.tech-info ul {
+  padding-left: 40px;
+}
+
+.tech-info li {
+  padding: 2px 0;
+}
+
+.tech-info li span:first-of-type {
+  margin-right: 8px;
+}
+
+.tech-info i {
+  margin-right: 15px;
+}
+
+.work-experience h2,
+.other-experience h2 {
+  background-color: #0a1b6a;
+  color: #fff;
+  padding: 10px;
+}
+
+.work-experience,
+.other-experience {
+  font-size: 20px;
+}
+
+.other-experience .grid-child:nth-child(2) ul {
+  padding-left: 0;
+}
+
+.wrap {
+  font-size: 12px;
+}
+
+.wrap section h2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.wrap section p,
+.wrap li {
+  font-size: 12px;
+}
+
+.wrap .title-section {
+  padding-top: 0px;
+}
+
+.wrap .title-section .grid-child:first-of-type {
+  margin-right: 0;
+}
+
+.wrap .title-section .grid-child:first-of-type h1 {
+  padding-left: 10px;
+}
+
+.wrap .title-section .grid-child h1 span {
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+.wrap h2 {
+  font-size: 16px;
+  margin: 0;
+}
+
+.wrap h3 {
+  font-size: 14px;
+}
+
+.wrap .grid-child {
+  width: 50%;
+}
+
+.wrap .work-experience .grid-child {
+  width: 100%;
+  padding-left: 10px;
+}
+
+.wrap .work-experience .grid-child .grid-child {
+  padding-left: 0;
+}
+
+.wrap .details {
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.wrap .details h2 {
+  padding-left: 5px;
+}
+
+.wrap .details img {
+  width: 85px;
+}
+
+.wrap .details ul {
+  font-size: 12px;
+  padding: 20px 20px 0 0;
+  background-color: transparent;
+  color: #0a1b6a;
+  padding-top: 10px;
+  padding-left: 0;
+}
+
+.wrap .details img,
+.wrap .details ul {
+  padding-left: 10px;
+}
+
+.wrap .tech-info ul {
+  font-size: 14px;
+  padding-left: 0;
+}
+
+.wrap .tech-info ul li {
+  padding-bottom: 10px;
+  font-size: 14px;
+}
+
+.wrap .tech-info h2 {
+  padding-left: 5px;
+  margin-left: -5px;
+}
+
+.wrap .title-section,
+.wrap .content-wrap {
+  padding-bottom: 0;
+}
+
+.wrap .title-section .grid::before {
+  content: none;
+}
+
+.wrap .title-section .grid-child h1 {
+  padding: 5px 0;
+}
+
+.wrap .work-experience ul,
+.wrap .other-experience ul {
+  padding-left: 0;
+}
+
+.wrap .work-experience ul i,
+.wrap .other-experience ul i {
+  margin-right: 10px;
+}
+
+.wrap .work-experience ul li,
+.wrap .other-experience ul li {
+  padding: 5px 0;
+}
+
+.wrap .other-experience .grid-child {
+  width: 100%;
+}
+.wrap .other-experience .grid-child ul{
+  margin: 0;
+}
+.wrap .other-experience p,
+.wrap .other-experience h3,
+.wrap .other-experience .grid {
+  padding-left: 10px;
+}
+
+.wrap .other-experience .grid-child p,
+.wrap .other-experience .grid-child h3 {
+  padding-left: 0;
+}
+
+.tech-info ul {
+  margin-bottom: 0;
+}
